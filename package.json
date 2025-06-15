@@ -1,0 +1,13 @@
+{
+  "name": "petmatch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "server": "cd server && py app.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "type": "multipleChoices",
+    "id": "petType",
+    "question": "What pet's type you want?",
+    "options": ["Bird", "Rabbit", "Cat", "All the above"]
+  },
+  {
+    "type": "multipleChoices",
+    "question": "What pet's breed you want?",
+    "id": "breed",
+    "options": [
+      "Parakeet",
+      "Rabbit",
+      "Golden Retriver",
+      "Labrador",
+      "Siamese",
+      "Persian",
+      "All the above"
+    ]
+  },
+  {
+    "type": "range",
+    "question": "How many age month you want from your pet?",
+    "id": "ageMonths",
+    "min": 1,
+    "max": 200
+  },
+  {
+    "type": "range",
+    "question": "What is your pet's weight range?",
+    "id": "weightKg",
+    "min": 1,
+    "max": 30
+  },
+  {
+    "type": "multipleChoices",
+    "id": "size",
+    "question": "What pet's size you prefer?",
+    "options": ["Large", "Medium", "Small", "All the above"]
+  },
+  {
+    "type": "multipleChoices",
+    "id": "vaccinated",
+    "question": "Do you want your pet have vaccination?",
+    "options": ["Yes", "No", "All the above"]
+  },
+  {
+    "type": "multipleChoices",
+    "id": "medicalCondition",
+    "question": "Do you want to adopt the pet having medical condition?",
+    "options": ["Yes", "No", "All the above"]
+  },
+  {
+    "type": "multipleChoices",
+    "id": "previousOwner",
+    "question": "Do you want your pet having record of previous owner?",
+    "options": ["Yes", "No", "All the above"]
+  },
+  {
+    "type": "range",
+    "id": "adoptionFee",
+    "question": "What is your adoption fee range?",
+    "min": 0,
+    "max": 500
+  }
+]

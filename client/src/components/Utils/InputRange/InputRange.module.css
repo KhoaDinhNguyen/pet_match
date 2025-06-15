@@ -1,0 +1,12 @@
+.rangeContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.rangeContainer label {
+  font-weight: 500;
+}
+
+.maxValueContainer {
+  margin-left: 20px;
+}
